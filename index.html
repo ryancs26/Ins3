@@ -1,31 +1,48 @@
-<!doctype html>
-<html>
-  <body style="margin:0;padding:0;background:#fff;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td align="center">
-          <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="font-family:Arial,Helvetica,sans-serif;color:#000;">
-            <tr><td style="padding:20px 20px 0;">
-              <p>Dear Dr Weng Onn Chan,</p>
-              <p>You have scripts pending approval as of <strong>4/09/2025</strong> for the following clinics:</p>
-              <ul><li>Pennington eye clinic</li></ul>
-              <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:20px 0;">
-                <tr>
-                  <td align="center" bgcolor="#0974f3" style="border-radius:4px;">
-                    <a href="https://scriptworx.com/login"
-                       style="display:inline-block;padding:12px 24px;font-size:16px;font-weight:bold;color:#fff;text-decoration:none;border-radius:4px;">
-                      Login to ScriptwoRx
-                    </a>
-                  </td>
-                </tr>
-              </table>
-              <p style="font-size:14px;color:#555;">This link is valid for 7 days.</p>
-              <p>Kind Regards,<br>The ScriptwoRx team</p>
-              <img src="https://YOUR-SITE.netlify.app/ScriptwoRx-email.png" alt="ScriptwoRx Logo" width="200" style="display:block;margin-top:15px;border:0;">
-            </td></tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ScriptwoRx – Pending Approval</title>
+  <style>
+    :root { --blue:#0974f3; }
+    body{margin:0;background:#fff;font:16px/1.5 Arial,Helvetica,sans-serif;color:#000;}
+    .wrap{max-width:600px;margin:0 auto;padding:24px;}
+    h1,h2,h3,p{margin:0 0 16px;}
+    ul{margin:0 0 16px 22px;}
+    .btn{
+      display:inline-block;background:var(--blue);color:#fff;text-decoration:none;
+      font-weight:700;padding:12px 24px;border-radius:6px
+    }
+    .meta{color:#555;font-size:14px}
+    img{display:block;border:0;margin-top:16px}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <p>Dear Dr Weng Onn Chan,</p>
+
+    <p>You have scripts pending approval as of <strong>4/09/2025</strong> for the following clinics:</p>
+
+    <ul>
+      <li>Pennington eye clinic</li>
+    </ul>
+
+    <p>
+      <a class="btn" href="https://scriptworx.com/login">Login to ScriptwoRx</a>
+    </p>
+
+    <p class="meta">This link is valid for 7 days.</p>
+
+    <p>Kind Regards,<br>The ScriptwoRx team</p>
+
+    <!-- Replace USERNAME and REPO with your GitHub details -->
+    <img
+      src="https://cdn.jsdelivr.net/gh/USERNAME/REPO@main/ScriptwoRx-email.png"
+      alt="ScriptwoRx Logo"
+      width="200"
+      height="auto"
+    />
+  </main>
+</body>
 </html>
